@@ -1,0 +1,21 @@
+{
+  "name": "@luckrya/eslint-config-core",
+  "version": "0.0.1",
+  "description": "An eslint config serve @luckrya organization",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "@renya/eslint-config"
+  ],
+  "author": "Y.R",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

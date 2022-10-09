@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "@luckrya/eslint-config-monorepo",
+  "scripts": {
+    "clean": "rm -rf node_modules packages/**/node_modules",
+    "bootstrap": "pnpm clean && pnpm --filter @luckrya/** install",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckrya/eslint-config.git"
+  },
+  "author": "Y.R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luckrya/eslint-config/issues"
+  },
+  "homepage": "https://github.com/luckrya/eslint-config#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.24.4",
+    "vitepress": "^1.0.0-alpha.19"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    }
+  },
+  "packageManager": "pnpm@7.7.0"
+}

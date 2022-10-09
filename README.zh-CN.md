@@ -1,4 +1,4 @@
-English | [简体中文](./README.md)
+[English](./README.md) | 简体中文
 
 <p align="center">
   <img width="30%" height="30%"  src="./docs/public/logo.png" alt="Logo" />
@@ -6,4 +6,4 @@ English | [简体中文](./README.md)
 
 <h1 align="center" >@luckrya/eslint-config</h1>
 
-<p align="center">All tools for Monorepo, serving ESLint config presets organized by @luckrya</p>
+<p align="center">eslint-config 所有工具包，eslint 内置预设配置服务于 luckrya 组织</p>

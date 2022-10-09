@@ -1,0 +1,1 @@
+# `@luckrya/eslint-config-core`
