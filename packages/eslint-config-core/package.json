@@ -13,7 +13,7 @@
     "eslint",
     "eslintconfig",
     "eslint-config",
-    "@renya/eslint-config"
+    "@luckrya/eslint-config"
   ],
   "scripts": {
     "test": "jest"
