@@ -1,5 +1,11 @@
 # @luckrya/eslint-config-core
 
+## 0.1.1
+
+### Patch Changes
+
+- Change subpackage folder name
+
 ## 0.1.0
 
 ### Minor Changes
