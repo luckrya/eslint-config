@@ -1,0 +1,8 @@
+#  plugin:yml/standard
+#  https://ota-meshi.github.io/eslint-plugin-yml/rules/
+# 【25 条】
+
+# ✓ GOOD
+GOOD: GOOD
+# ✗ BAD
+"BAD": "BAD"
