@@ -34,7 +34,8 @@
   },
   "devDependencies": {
     "eslint": "^8.24.0",
-    "jest": "^28.1.3"
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "eslint": "^8.24.0",
@@ -52,5 +53,12 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "typescript"
+      ]
+    }
   }
 }
