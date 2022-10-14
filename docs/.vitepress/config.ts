@@ -48,6 +48,10 @@ export default defineConfig({
               text: "Core Config",
               link: "/en/tools/core",
             },
+            {
+              text: "Base Config",
+              link: "/en/tools/base",
+            },
           ],
         },
       ],
@@ -59,6 +63,10 @@ export default defineConfig({
             {
               text: "核心配置",
               link: "/tools/core",
+            },
+            {
+              text: "基础配置",
+              link: "/tools/base",
             },
           ],
         },

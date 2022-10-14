@@ -1,7 +1,7 @@
-# `@luckrya/eslint-config`
+<p align="center">
+  <img src="/logo.png" alt="Logo" style="width: 18%; height: 18%"/>
+</p>
 
-## Getting Started
+<h1 align="center">@luckrya/eslint-config</h1>
 
-## Packages included in this project
-
-## Design Motivation（Why does this project exist?）
+<p align="center">All tools for Monorepo, serving ESLint config presets organized by @luckrya</p>
