@@ -1,5 +1,11 @@
 # @luckrya/eslint-config-base
 
+## 0.0.3
+
+### Patch Changes
+
+- add necessary overrides config to make some extensions @luckrya/eslint-config-core work
+
 ## 0.0.2
 
 ### Patch Changes
