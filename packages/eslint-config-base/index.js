@@ -22,7 +22,7 @@ module.exports = {
    * https://eslint.org/docs/latest/user-guide/configuring/configuration-files#extending-configuration-files
    */
   extends: [
-    "@renya/core",
+    "@luckrya/core",
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
@@ -34,6 +34,27 @@ module.exports = {
    * https://eslint.org/docs/latest/user-guide/configuring/rules
    */
   rules: {
-    // Custom additional rules needed by @renya/base
+    // Custom additional rules needed by @luckrya/base
   },
+
+  /**
+   * More fine-grained formatting configuration
+   * https://eslint.org/docs/latest/user-guide/configuring/configuration-files#configuration-based-on-glob-patterns
+   */
+  overrides: [
+    {
+      files: ["*.test.{ts,js}", "*.spec.{ts,js}"],
+      extends: ["plugin:jest/recommended"],
+    },
+    {
+      // TIPS: can't put config inside @ren/core because "overrides" doesn't work when "extends" is nested
+      // https://github.com/eslint/eslint/issues/8813#issuecomment-323247947
+      files: ["*.json", "*.json5", "*.jsonc"],
+      parser: "jsonc-eslint-parser",
+    },
+    {
+      files: ["*.yaml", "*.yml"],
+      parser: "yaml-eslint-parser",
+    },
+  ],
 };
