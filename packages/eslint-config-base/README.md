@@ -8,7 +8,7 @@ Integration of some base rule sets, please refer to Rules below
 $ pnpm add -D @luckrya/eslint-config-base
 
 #【peerDependencies】 If it has been installed, ignore it
-$ pnpm add -D typescript
+$ pnpm add -D eslint prettier jest typescript
 ```
 
 ## Usage
