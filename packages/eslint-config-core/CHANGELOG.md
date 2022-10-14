@@ -1,5 +1,11 @@
 # @luckrya/eslint-config-core
 
+## 0.1.3
+
+### Patch Changes
+
+- fix peer dependency warning
+
 ## 0.1.2
 
 ### Patch Changes
