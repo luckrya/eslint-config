@@ -1,0 +1,31 @@
+{
+  "private": false,
+  "name": "@luckrya/eslint-config-base",
+  "version": "0.0.0",
+  "description": "An eslint config serve @luckrya organization",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "eslint-config-typescript",
+    "@luckrya/eslint-config"
+  ],
+  "author": "L.C",
+  "license": "MIT",
+  "dependencies": {
+    "@luckrya/eslint-config-core": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1"
+  },
+  "peerDependencies": {
+    "typescript": "^4.8.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
