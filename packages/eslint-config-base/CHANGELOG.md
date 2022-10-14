@@ -1,5 +1,11 @@
 # @luckrya/eslint-config-base
 
+## 0.1.0
+
+### Minor Changes
+
+- Almost finished the project and added docs
+
 ## 0.0.3
 
 ### Patch Changes
