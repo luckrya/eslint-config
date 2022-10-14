@@ -1,5 +1,11 @@
 # @luckrya/eslint-config-core
 
+## 0.1.2
+
+### Patch Changes
+
+- add peer dependencies
+
 ## 0.1.1
 
 ### Patch Changes
