@@ -1,0 +1,16 @@
+{
+  "name": "@renya/eslint-config-cli",
+  "version": "0.0.0",
+  "description": "A tool to quickly integrate code specifications for your project. It mainly uses the official configuration of @renya/eslint-config-*, allowing developers to focus more on business development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Y.R",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
