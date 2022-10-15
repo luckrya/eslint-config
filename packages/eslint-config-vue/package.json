@@ -1,0 +1,27 @@
+{
+  "name": "@luckrya/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "An eslint config serve @luckrya organization",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "@luckrya/eslint-config",
+    "eslint-config-vue",
+    "vue"
+  ],
+  "license": "MIT",
+  "author": "Y.R",
+  "dependencies": {
+    "@luckrya/eslint-config-base": "workspace:*",
+    "eslint-plugin-vue": "^9.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
