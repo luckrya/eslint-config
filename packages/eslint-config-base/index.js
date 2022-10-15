@@ -1,8 +1,7 @@
 /**
- * @desc The core ESLint configuration collection
- *       The basic configuration here is applied to the validation of pure JavaScript libraries,
- *       suitable for node and browser platforms, and automatically integrates the configuration
- *       required for unit testing (jest).
+ * @desc A collection of basic ESLint configurations, where the basic configuration is applied to the
+ *       validation of pure TypeScript libraries, suitable for node and browser platforms, and automatically
+ *       integrates the configuration required for unit testing (jest).
  *
  * @reference https://eslint.org/docs/latest/user-guide/configuring
  * @type {import("eslint/lib/shared/types").ConfigData}
