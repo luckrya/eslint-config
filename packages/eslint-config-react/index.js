@@ -43,7 +43,7 @@ module.exports = {
    * More fine-grained formatting configuration
    * https://eslint.org/docs/latest/user-guide/configuring/configuration-files#configuration-based-on-glob-patterns
    */
-  overrides: require("@renya/eslint-config-base").overrides,
+  overrides: require("@luckrya/eslint-config-base").overrides,
 
   /**
    * ESLint comes with a large number of built-in rules and you can add more rules through plugins.
@@ -51,7 +51,7 @@ module.exports = {
    * https://eslint.org/docs/latest/user-guide/configuring/rules
    */
   rules: {
-    // Custom additional rules needed by @renya/react
+    // Custom additional rules needed by @luckrya/react
     // https://eslint.vuejs.org/rules/
   },
 };
