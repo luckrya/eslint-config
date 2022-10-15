@@ -1,5 +1,12 @@
 # `@luckrya/eslint-config-core`
 
+<p style="display:flex;">
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/v/@luckrya/eslint-config-core" alt="NPM Version" />
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@luckrya/eslint-config-core.svg" alt="NPM Downloads" />
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/l/@luckrya/eslint-config-core" alt="License">
+  <img  style="margin-right: 4px;" src="https://img.shields.io/bundlephobia/minzip/@luckrya/eslint-config-core" alt="npm bundle size (scoped)" >
+</p>
+
 Integration of some core rule sets, please refer to Rules below
 
 ## Installation

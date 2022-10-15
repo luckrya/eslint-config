@@ -1,5 +1,12 @@
 # `@luckrya/eslint-config-react`
 
+<p style="display:flex;">
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/v/@luckrya/eslint-config-react" alt="NPM Version" />
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@luckrya/eslint-config-react.svg" alt="NPM Downloads" />
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/l/@luckrya/eslint-config-react" alt="License">
+  <img  style="margin-right: 4px;" src="https://img.shields.io/bundlephobia/minzip/@luckrya/eslint-config-react" alt="npm bundle size (scoped)" >
+</p>
+
 React 规则集的整合，请参考下面的规则
 
 ## 安装

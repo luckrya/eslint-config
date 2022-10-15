@@ -45,6 +45,10 @@ export default defineConfig({
           text: "Packages",
           items: [
             {
+              text: "CLI",
+              link: "/en/tools/cli",
+            },
+            {
               text: "JavaScript Config",
               link: "/en/tools/core",
             },
@@ -68,6 +72,10 @@ export default defineConfig({
         {
           text: "工具包",
           items: [
+            {
+              text: "CLI",
+              link: "/tools/cli",
+            },
             {
               text: "JavaScript 配置",
               link: "/tools/core",

@@ -1,5 +1,12 @@
 # `@luckrya/eslint-config-react`
 
+<p>
+  <img src="https://img.shields.io/npm/v/@luckrya/eslint-config-react" alt="NPM Version" />
+  <img src="https://img.shields.io/npm/dm/@luckrya/eslint-config-react.svg" alt="NPM Downloads" />
+  <img src="https://img.shields.io/npm/l/@luckrya/eslint-config-react" alt="License">
+  <img src="https://img.shields.io/bundlephobia/minzip/@luckrya/eslint-config-react" alt="npm bundle size (scoped)" >
+</p>
+
 Integration of some react rule sets, please refer to Rules below
 
 ## Installation

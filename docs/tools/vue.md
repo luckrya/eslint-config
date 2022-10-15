@@ -1,5 +1,12 @@
 # `@luckrya/eslint-config-vue`
 
+<p style="display:flex;">
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/v/@luckrya/eslint-config-vue" alt="NPM Version" />
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@luckrya/eslint-config-vue.svg" alt="NPM Downloads" />
+  <img  style="margin-right: 4px;" src="https://img.shields.io/npm/l/@luckrya/eslint-config-vue" alt="License">
+  <img  style="margin-right: 4px;" src="https://img.shields.io/bundlephobia/minzip/@luckrya/eslint-config-vue" alt="npm bundle size (scoped)" >
+</p>
+
 vue 规则集的集成，请参考下面的规则
 
 ## 安装
