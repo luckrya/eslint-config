@@ -56,6 +56,10 @@ export default defineConfig({
               text: "React Config",
               link: "/en/tools/react",
             },
+            {
+              text: "Vue Config",
+              link: "/en/tools/vue",
+            },
           ],
         },
       ],
@@ -75,6 +79,10 @@ export default defineConfig({
             {
               text: "React 配置",
               link: "/tools/react",
+            },
+            {
+              text: "Vue 配置",
+              link: "/tools/vue",
             },
           ],
         },
