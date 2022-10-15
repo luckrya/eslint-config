@@ -45,12 +45,16 @@ export default defineConfig({
           text: "Packages",
           items: [
             {
-              text: "Core Config",
+              text: "JavaScript Config",
               link: "/en/tools/core",
             },
             {
-              text: "Base Config",
+              text: "TypeScript Config",
               link: "/en/tools/base",
+            },
+            {
+              text: "React Config",
+              link: "/en/tools/react",
             },
           ],
         },
@@ -61,12 +65,16 @@ export default defineConfig({
           text: "工具包",
           items: [
             {
-              text: "核心配置",
+              text: "JavaScript 配置",
               link: "/tools/core",
             },
             {
-              text: "基础配置",
+              text: "TypeScript 配置",
               link: "/tools/base",
+            },
+            {
+              text: "React 配置",
+              link: "/tools/react",
             },
           ],
         },

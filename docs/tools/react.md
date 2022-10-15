@@ -1,14 +1,14 @@
 # `@luckrya/eslint-config-react`
 
-Integration of some react rule sets, please refer to Rules below
+React 规则集的整合，请参考下面的规则
 
-## Installation
+## 安装
 
 ```sh
 $ pnpm add -D @luckrya/eslint-config-react
 ```
 
-## Usage
+## 使用
 
 **.eslintrc.js**
 
@@ -26,9 +26,9 @@ module.exports = {
 }
 ```
 
-## Rules
+## 规则集
 
-```yml
+```sh
 - "@luckrya/base"
 - "plugin:react/recommended"
 - "plugin:react-hooks/recommended"

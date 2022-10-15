@@ -28,7 +28,7 @@ module.exports = {
 
 ## Rules
 
-```yml
+```sh
 - "@luckrya/base"
 - "plugin:react/recommended"
 - "plugin:react-hooks/recommended"
