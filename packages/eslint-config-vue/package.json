@@ -13,9 +13,21 @@
   ],
   "license": "MIT",
   "author": "Y.R",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@luckrya/eslint-config-base": "workspace:*",
     "eslint-plugin-vue": "^9.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "jest": "^28.1.3"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/__tests__/*.(test|spec).js"
+    ]
   },
   "engines": {
     "node": ">=14.0.0"
