@@ -20,7 +20,13 @@ module.exports = {
    * language options) and modify all the options.
    * https://eslint.org/docs/latest/user-guide/configuring/configuration-files#extending-configuration-files
    */
-  extends: ["@luckrya/base"],
+  extends: [
+    "@luckrya/base",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+  ],
 
   /**
    * ESLint supports adding shared settings into configuration files. Plugins use settings to specify information
@@ -31,5 +37,21 @@ module.exports = {
     react: {
       version: "17.0",
     },
+  },
+
+  /**
+   * More fine-grained formatting configuration
+   * https://eslint.org/docs/latest/user-guide/configuring/configuration-files#configuration-based-on-glob-patterns
+   */
+  overrides: require("@renya/eslint-config-base").overrides,
+
+  /**
+   * ESLint comes with a large number of built-in rules and you can add more rules through plugins.
+   * You can modify which rules your project uses either using configuration comments or configuration files.
+   * https://eslint.org/docs/latest/user-guide/configuring/rules
+   */
+  rules: {
+    // Custom additional rules needed by @renya/react
+    // https://eslint.vuejs.org/rules/
   },
 };

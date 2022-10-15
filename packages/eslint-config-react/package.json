@@ -17,7 +17,10 @@
   "license": "MIT",
   "author": "L.C",
   "dependencies": {
-    "@luckrya/eslint-config-base": "workspace:*"
+    "@luckrya/eslint-config-base": "workspace:*",
+    "eslint-plugin-react": "^7.31.7",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1"
   },
   "engines": {
     "node": ">=14.0.0"
