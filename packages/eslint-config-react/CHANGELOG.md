@@ -1,5 +1,12 @@
 # @luckrya/eslint-config-react
 
+## 0.1.1
+
+### Patch Changes
+
+- add documentation
+- add test case
+
 ## 0.1.0
 
 ### Minor Changes

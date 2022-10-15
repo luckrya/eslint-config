@@ -1,6 +1,6 @@
 {
   "name": "@luckrya/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An eslint config serve @luckrya organization",
   "main": "index.js",
   "scripts": {
