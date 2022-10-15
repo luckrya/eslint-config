@@ -1,6 +1,6 @@
 {
   "name": "@luckrya/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An eslint config serve @luckrya organization",
   "main": "index.js",
   "keywords": [
