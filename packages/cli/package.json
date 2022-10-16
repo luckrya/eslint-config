@@ -17,7 +17,8 @@
   "files": [
     "bin",
     "dist",
-    "types"
+    "types",
+    "templates"
   ],
   "scripts": {
     "clean": "rm -rf dist types",
