@@ -1,10 +1,10 @@
 # `@luckrya/eslint-config-cli`
 
-<p>
-  <img src="https://img.shields.io/npm/v/@luckrya/eslint-config-cli" alt="NPM Version" />
-  <img src="https://img.shields.io/npm/dm/@luckrya/eslint-config-cli.svg" alt="NPM Downloads" />
-  <img src="https://img.shields.io/npm/l/@luckrya/eslint-config-cli" alt="License">
-  <img src="https://img.shields.io/bundlephobia/minzip/@luckrya/eslint-config-cli" alt="npm bundle size (scoped)" >
+<p style="display:flex;">
+  <img style="margin-right: 4px;" src="https://img.shields.io/npm/v/@luckrya/eslint-config-cli" alt="NPM Version" />
+  <img style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@luckrya/eslint-config-cli.svg" alt="NPM Downloads" />
+  <img style="margin-right: 4px;" src="https://img.shields.io/npm/l/@luckrya/eslint-config-cli" alt="License">
+  <img style="margin-right: 4px;" src="https://img.shields.io/bundlephobia/minzip/@luckrya/eslint-config-cli" alt="npm bundle size (scoped)" >
 </p>
 
 A tool to quickly integrate code specifications for your project. It mainly uses the official configuration of @luckrya/eslint-config-\*, allowing developers to focus more on business development. Simple and efficient.
