@@ -1,0 +1,7 @@
+// Babel Config File
+// https://babel.dev/docs/en/options
+// https://babel.dev/docs/en/babel-preset-typescript
+// https://babel.dev/docs/en/babel-preset-env
+{
+  "presets": ["@babel/env", "@babel/typescript"]
+}
