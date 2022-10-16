@@ -1,6 +1,6 @@
 {
   "name": "@luckrya/eslint-config-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool to quickly integrate code specifications for your project. It mainly uses the official configuration of @luckrya/eslint-config-*, allowing developers to focus more on business development.",
   "bin": {
     "ecc": "bin/ecc"
