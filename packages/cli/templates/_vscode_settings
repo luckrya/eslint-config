@@ -1,0 +1,18 @@
+{
+  "git.ignoreLimitWarning": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "vetur.validation.template": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "json",
+    "jsonc",
+    "json5",
+    "vue"
+  ]
+}

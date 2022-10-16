@@ -28,6 +28,7 @@ export default (commandLineArgs) => ({
 
     babel({
       extensions: [".ts", ".js"],
+      babelHelpers: "bundled",
       include: ["src/**/*"],
       exclude: ["node_modules"],
     }),

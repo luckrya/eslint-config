@@ -1,0 +1,15 @@
+/**
+ * luckrya organizes the official configuration, please refer to the details
+ * https://github.com/luckrya/eslint-config
+ */
+module.exports = {
+  extends: [
+    <%_ if (type === ProjectType.Lib) { _%>
+    "@luckrya/base"
+    <%_ } else if (type === ProjectType.Vue) { _%>
+    "@luckrya/vue"
+    <%_ } else if (type === ProjectType.React) { _%>
+    "@luckrya/react"
+    <%_ } _%>
+  ],
+};

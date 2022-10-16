@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+
+# Rewritten based on https://github.com/vuejs/core/blob/main/scripts/verifyCommit.js
+. "$(dirname -- "$0")/_/husky.sh"
+
+# $1: .git/COMMIT_EDITMSG
+msg=`cat $1`
+
+COMMIT_REG="^(revert: )?(feat|fix|docs|dx|style|refactor|perf|test|workflow|build|ci|chore|types|wip|release)(\(.+\))?: .{1,50}"
+
+if [[ $msg =~ $COMMIT_REG ]]
+then
+    echo ""
+else
+    echo ""
+    echo "\033[31m\033[01m【ERROR】 Invalid Git Commit log message. \033[0m";
+    echo "\033[31m\033[01m          Correct commit message format is required for automatic generation of changelogs. E.g: \033[0m"
+    echo ""
+    echo "           \033[32m feat(compiler): add 'comments' option \033[0m"
+    echo "           \033[32m fix(v-model): handle events on blur (close #28) \033[0m"
+    echo ""
+    echo "          See More："
+    echo "            - https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines"
+    echo "            - https://keepachangelog.com/zh-CN/1.0.0/"
+    echo "            - https://github.com/vuejs/core/blob/main/.github/commit-convention.md"
+    echo ""
+    exit 8
+fi
