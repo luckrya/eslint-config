@@ -22,7 +22,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/eslint-config/logo.png",
 
     localeLinks: {
       text: "",
