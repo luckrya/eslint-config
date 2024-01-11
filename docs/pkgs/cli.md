@@ -1,6 +1,6 @@
-# `@rc5/eslint-config-cli` [WIP]
+# @rc5/eslint-config-cli [WIP]
 
-<p style="display:flex;">
+<!-- <p style="display:flex;">
   <img style="margin-right: 4px;" src="https://img.shields.io/npm/v/@rc5/eslint-config-cli" alt="NPM Version" />
   <img style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@rc5/eslint-config-cli.svg" alt="NPM Downloads" />
   <img style="margin-right: 4px;" src="https://img.shields.io/npm/l/@rc5/eslint-config-cli" alt="License">
@@ -32,4 +32,4 @@ Commands:
 Options:
   -h, --help     Show help                                             [boolean]
   -v, --version  Show version number                                   [boolean]
-```
+``` -->

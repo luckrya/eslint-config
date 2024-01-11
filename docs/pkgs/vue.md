@@ -1,6 +1,6 @@
-# `@rc5/eslint-config-vue` [WIP]
+# @rc5/eslint-config-vue [WIP]
 
-<p style="display:flex;">
+<!-- <p style="display:flex;">
   <img  style="margin-right: 4px;" src="https://img.shields.io/npm/v/@rc5/eslint-config-vue" alt="NPM Version" />
   <img  style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@rc5/eslint-config-vue.svg" alt="NPM Downloads" />
   <img  style="margin-right: 4px;" src="https://img.shields.io/npm/l/@rc5/eslint-config-vue" alt="License">
@@ -39,4 +39,4 @@ module.exports = {
 - "@rc5/core"
 - "plugin:vue/vue3-recommended"
 - "plugin:prettier/recommended"
-```
+``` -->

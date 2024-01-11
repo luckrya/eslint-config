@@ -1,5 +1,6 @@
-# `@rc5/eslint-config-react` [WIP]
+# @rc5/eslint-config-react [WIP]
 
+<!--
 <p style="display:flex;">
   <img  style="margin-right: 4px;" src="https://img.shields.io/npm/v/@rc5/eslint-config-react" alt="NPM Version" />
   <img  style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@rc5/eslint-config-react.svg" alt="NPM Downloads" />
@@ -41,4 +42,4 @@ module.exports = {
 - "plugin:react-hooks/recommended"
 - "plugin:jsx-a11y/recommended"
 - "plugin:prettier/recommended"
-```
+``` -->

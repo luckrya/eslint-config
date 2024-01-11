@@ -29,7 +29,7 @@ module.exports = {
 ```json
 {
   "eslintConfig": {
-    "extends": ["@techive/core"]
+    "extends": ["@rc5/core"]
   }
 }
 ```
