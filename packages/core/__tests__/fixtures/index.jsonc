@@ -1,0 +1,10 @@
+// plugin:jsonc/recommended-with-jsonc
+// plugin:jsonc/prettier
+// https://ota-meshi.github.io/eslint-plugin-jsonc/rules/
+// 【41 条】
+{
+  /* ✓ GOOD */
+  "GOOD": 42,
+  /* ✗ BAD */
+  "BAD": "\u{41}"
+}

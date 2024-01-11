@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "@rc5/eslint-config-monorepo",
+  "scripts": {
+    "clean": "rm -rf node_modules packages/**/node_modules",
+    "bootstrap": "pnpm clean && pnpm install",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "vitepress": "1.0.0-rc.36"
+  },
+  "author": "@rc5",
+  "license": "MIT",
+  "homepage": "https://github.com/luckrya/_eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/luckrya/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckrya/eslint-config.git"
+  },
+  "packageManager": "pnpm@8.0.0",
+  "type": "module"
+}
