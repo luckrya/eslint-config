@@ -1,7 +1,7 @@
 <p align="center">
   <img width="10%" height="10%"  src="./public/logo.png" alt="Logo" />
 </p>
-<h1 align="center">@rc5/eslint-config</h1>
+<h1 align="center">eslint-config</h1>
 <p align="center">自定义代码规范配置集，用于 @rc5 下的前端项目</p>
 <br>
 

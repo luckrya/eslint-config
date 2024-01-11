@@ -1,10 +1,11 @@
-# `@luckrya/eslint-config-core`
+# @rc5/eslint-config-core
 
-<p>
-  <img src="https://img.shields.io/npm/v/@rc5/eslint-config-core" alt="NPM Version" />
-  <img src="https://img.shields.io/bundlephobia/minzip/@rc5/eslint-config-core" alt="npm bundle size (scoped)" >
-  <img src="https://img.shields.io/npm/dm/@rc5/eslint-config-core.svg" alt="NPM Downloads" />
-  <img src="https://img.shields.io/npm/l/@rc5/eslint-config-core" alt="License">
+<p style="display:flex;">
+  <img style="margin-right: 4px;" src="https://img.shields.io/npm/v/@rc5/eslint-config-core" alt="NPM Version" />
+  <img style="margin-right: 4px;" src="https://img.shields.io/bundlephobia/minzip/@rc5/eslint-config-core" alt="npm bundle size (scoped)" >
+  <img style="margin-right: 4px;" src="https://img.shields.io/npm/dm/@rc5/eslint-config-core.svg" alt="NPM Downloads" />
+  <img style="margin-right: 4px;" src="https://img.shields.io/npm/l/@rc5/eslint-config-core" alt="License">
+
 </p>
 
 ## 安装
