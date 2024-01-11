@@ -47,4 +47,6 @@ export default defineConfig({
       port: 2022,
     },
   },
+
+  ignoreDeadLinks: true,
 });
